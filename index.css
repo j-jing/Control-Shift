@@ -1,0 +1,134 @@
+body {
+    /*color, and sroll options on the x and y axis*/
+    background-color: antiquewhite;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*
+font-family: 'Margarine', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+{
+    /*border*/
+    box-sizing: border-box;
+}
+
+body {
+    /*border*/
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h1 {    
+    /* font apperance, and centered text*/
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 20px;
+    font-size: 500%;
+    width: 100%;
+    text-align: center;
+}
+
+
+h2{
+    /* font apperance,*/
+    text-align: center;
+    font-family: 'Margarine', cursive;
+}
+
+h3{
+    /* font apperance,*/
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+
+h4{
+    /* text starts at center, font apperance,*/
+    text-align: center;
+    font-size: 300%;
+    width: 100%;
+    font-family: 'Margarine', cursive;
+}
+
+h5{
+    /* text starts at the left, font apperance,*/
+    text-align: left;
+    font-size: 140%;
+    width: 100%;
+    font-family: 'Kalam', cursive;   
+}
+
+h6{
+    /* text starts at the left, font apperance,*/
+    text-align: left;
+    font-size: 140%;
+    width: 100%;
+    font-family: 'Kalam', cursive;   
+}
+
+h7{
+    /* text starts at the left, font apperance,*/
+    text-align: center;
+    object-position: center;
+    font-size: 170%;
+    width: 100%;
+    font-family: 'Kaushan Script', cursive;   
+
+}
+
+h8{
+    /* text starts at the left, font apperance,*/
+    text-align: center;
+    object-position: center;
+    font-size: 170%;
+    font-family: 'Kaushan Script', cursive;  
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: none
+}
+
+
+.about {
+    /* color, position, and spacing*/
+    background-color: ;
+    position: relative;
+    padding: 5vw;
+}

@@ -1,0 +1,39 @@
+body {
+    /*color*/
+    background-color: antiquewhite;
+}
+
+/*
+font-family: 'Margarine', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+
+h1 {    
+    /*font apperance, and centered txt*/
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: 20px;
+    font-size: 500%;
+    width: 100vw;
+    text-align: center;
+}
+
+h2{
+    /*font apperance, and centered txt*/
+    text-align: center;
+    font-family: 'Margarine', cursive;
+    color: black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:70%;
+}

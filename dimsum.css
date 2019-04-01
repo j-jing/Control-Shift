@@ -1,0 +1,153 @@
+/* the bevarages dont have a distance in between the rows, idk why, bc messing with the row doesn't work, either leave it or ask wiessman*/
+
+body{
+    /*color, and sroll options on the x and y axis*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: gray;
+}
+
+/*
+font-family: 'Margarine', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+
+h1 { 
+    /* font, size, color, and location on screen*/  
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 500%;
+    width: 100vw;
+    text-align: center;
+}
+
+
+h2{
+    /* font, size, color, and location on screen*/  
+    font-size: 160%;
+    text-align: center;
+    font-family: '', cursive;
+}
+
+h3  {
+    /* font, size, color, and location on screen*/  
+    font-family: 'Palatino Linotype', cursive;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+h4{
+    /* font, size, color, and location on screen*/  
+    font-family: 'Palatino Linotype', cursive;
+    color: dimgray;
+    font-size: 250%;
+    text-align: center;
+}
+
+div.Appitizers {  
+    /* this is the dimensions of the grid, thta holds all the information of this div, it makes it so the boxes are 200x100, and are two by two while centered*/
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+div.Appitizers div {
+    /*colors, border size/color, space for it, font size, and location*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    font-size: 115%;
+    text-align: center;
+}
+
+img {
+    /* image dimesions, the effect of when it's being hovered over and how long it takes the orignally hidden image to appear, visibility, the scale of the zoom/visibilty pre/post when hovered*/
+    width: 33vw;
+    height:40vh;
+    opacity: 0.6;	
+    transition-duration: 1s;
+    transform: scale(.8);
+}
+
+div.Seafood {
+    /* this is the dimensions of the grid, thta holds all the information of this div, it makes it so the boxes are 200x100, and are two by two while centered*/
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+div.Seafood div {
+    /*colors, border size/color, space for it, font size, and location*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.Soup { 
+    /* this is the dimensions of the grid, thta holds all the information of this div, it makes it so the boxes are 200x100, and are two by two while centered*/
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+div.Soup div{
+    /*colors, border size/color, space for it, font size, and location*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    font-size: 115%;
+    text-align: center;
+}
+
+div.Beverages { 
+    /* this is the dimensions of the grid, thta holds all the information of this div, it makes it so the boxes are 200x100, and are two by two while centered*/
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+div.Beverages div{
+    /*colors, border size/color, space for it, font size, and location*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    font-size: 115%;
+    text-align: center;
+}
+
+div:hover > img{
+    /* THIS is the visibiltiy of the picture, the size on hover and the time it takes o transition to it*/
+    opacity: 1;   
+    transition-duration: 1s;
+    transform: scale(1);
+}
+a  {
+    /*position, apperance, and size on screen*/
+    position: absolute;
+    z-index: 5;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    font-size: 150%;
+    width: 85vw;
+    text-align: right;  
+    bottom: -830vh;}

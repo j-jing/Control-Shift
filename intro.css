@@ -1,0 +1,80 @@
+body {
+    /*color, overlay of the image and scroll options on the x and y axis*/
+    overflow: hidden;
+    background-color:tan;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.background_img {
+    /* dimesnsions and postiotn of background picture we chose*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    /* header postion*/
+    position: absolute;
+    z-index: 1;
+    top: 5vh;
+    left: -4vw;
+}
+
+h1 {    
+    /*text apperance, size, color, and centered alignement*/
+    font-family: 'Luminari', cursive;
+    position: top;
+    color: white;
+    font-size: 350%;
+    width: 110vw;
+    text-align: center;
+}
+
+h2 {
+    /*text apperance, size, color, and centered alignement*/
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 155%;
+    width: 110vw;
+    text-align: center;   
+}
+
+h3 {
+    /*text apperance, size, color, and centered alignement*/
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 200%;
+    width: 110vw;
+    text-align: center;   
+}
+
+
+a {
+    /*position, apperance, and size on screen*/
+    position: absolute;
+    z-index: 5;
+    text-decoration: none;
+    color: red;
+    font-size: 250%;
+    width: 102vw;
+    text-align: center;  
+    top: 70vh;
+
+}
+
+a:hover {
+    /* when the mouse hovers over the buttion, it'll change color and the time it'll take for that to happen*/
+    color: white;
+    transition-duration: .5s;
+}
+
+a:active {
+    /* when the mouse hovers over, the word becomes activated, and transitions to a different color*/
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+

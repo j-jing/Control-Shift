@@ -1,0 +1,123 @@
+
+h1 {    
+    /* Font, color, size, and making it centered*/
+    font-family: "Times New Roman", serif;
+    color:#4682b4 ;
+    font-size: 400%;
+    width: 100vw;
+    text-align: center;
+}
+
+
+div:hover > img{
+    /* THIS is the visibiltiy of the picture, the size on hover and the time it takes o transition to it*/
+    opacity: 1;   
+    transition-duration: 1s;
+    transform: scale(1);
+}
+
+img {
+    /* image dimesions, the effect of when it's being hovered over and how long it takes the orignally hidden image to appear, visibility, the scale of the zoom/visibilty pre/post when hovered*/
+    width: 35vw;
+    height:40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 46vw;
+    height:39vh;*/
+    opacity: .3;
+    transform: scale(.7);
+    transition-duration: 1s;
+}
+
+.center {
+    /* this makes the pictures centered*/
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    /* Font, color, size, and making it centered*/
+    font-family: "Times New Roman", serif;
+    font-size: 160%;
+    color: lightpink;
+    width: 100vw;
+    text-align: center;
+}
+
+
+h3{
+    /* Font, color, size, and making it centered*/
+    font-size: 120%;
+    color: #b0c4de;
+    width: 100vw;
+    text-align: center;
+}
+
+
+h4{
+    /* Font, color, size, and making it centered*/
+    font-size: 110%;
+    color: pink;
+    width: 100vw;
+    text-align: center;
+}
+
+h5{
+    /* Font, color, size, and making it centered*/
+    font-size: 111%;
+    color: #b0c4de;
+    width: 100vw;
+    text-align: center;
+}
+
+.RolledIcecream {  
+    /* this is the dimensions of the grid, thta holds all the information of this div, it makes it so the boxes are 250x250px, and are two by two while centered*/
+    display: grid;
+    height: 250px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+body{
+    /*color, and sroll options on the x and y axis*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #fffafa;
+}
+
+div.RolledIceCream {  display: grid;
+}
+
+div.RolledIceCream div {
+    /* this adds a thick border that you can see, the color, the arrangement, size */
+    background-color:aliceblue;
+    border-style: double;
+    border-color: palevioletred;
+    border-width: thick;
+    border-radius: 25px;
+    width: 45vw;
+    display: table-cell;
+}
+
+a  {
+    /*position, apperance, and size on screen*/
+    position: absolute;
+    z-index: 5;
+    text-decoration: none;
+    color: burlywood;
+    font-size: 150%;
+    width: 100vw;
+    text-align: center;  
+    bottom: -250vh;}
+/*.RolledIceCream{
+left: 50vw;
+}
+
+
+/*opacity: 0;	
+transition-duration: 1s;
+transform: scale(0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ 
+

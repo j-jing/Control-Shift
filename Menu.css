@@ -1,0 +1,361 @@
+body {
+    /*color, and sroll options on the x and y axis*/
+    background-color: antiquewhite;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*
+font-family: 'Margarine', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+
+h1 {     
+    /*font apperance, and centered txt*/
+    font-family: 'Kaushan Script', cursive;
+    color: sandybrown;
+    font-size: 500%;
+    width: 100vw;
+    text-align: center;
+}
+
+
+h2{
+    /*font apperance, and centered txt*/
+    text-align: center;
+    font-size: 160%;
+    color: darkorange;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+h3{
+    /*font apperance, and centered txt*/
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/*div.SpecialPlatters {  
+display: grid;
+height: 250px;
+grid-template-columns: 1fr  ;
+grid-template-rows: auto;
+align-items: center;/*
+}
+
+div.SpecialPlatters div {
+
+border-style: double;
+border-color: red;
+border-width: thick;
+border-radius: 10px;
+width: 45vw;
+padding: 12px;
+*/
+
+
+div.Appitizers {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered
+    flex-shrink: ;
+    overflow:inherit;*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr ;
+    align-content: space-around;
+    padding: -20px;
+}
+
+
+div.Appitizers div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: yellowgreen;
+    border-width: thick;
+    border-radius: 10px;
+    display:inline-grid;
+}
+
+
+
+div.Soup {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    /*flex-flow: column;*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+div.Soup div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.Sandwich {
+    display: table;
+
+}
+
+
+div.Sandwich div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.YatMein {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+div.YatMein div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.LoMein {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+div.LoMein div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+div.FriedRice {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+div.FriedRice div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.SweetandSour {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.SweetandSour div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.EggFooYoung {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+div.EggFooYoung div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+
+div.Shrimp {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+div.Shrimp div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+div.Beef {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+div.Beef div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.RoastPork {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+div.RoastPork div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+
+
+div.Poultry {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.Poultry div {
+    /* border style/apperance*/
+    border-style: double;
+    border-color: red;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+div.Combination {
+    /* this is the dimensions of the grid, that holds all the information of each div indiviually, it makes it so the boxes are #x#, and are three in a row while centered*/
+    display: grid;
+    width:90vw;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+div.Combination div {
+    /* border style/apperance*/
+
+    border-style: double;
+    border-color: mediumpurple;
+    border-width: thick;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+div:hover > img{
+    /* THIS is the visibiltiy of the picture, the size on hover and the time it takes o transition to it*/
+    opacity: 1;   
+    transition-duration: 1s;
+    transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ 
+}
+
+img {
+    /* image dimesions, the effect of when it's being hovered over and how long it takes the orignally hidden image to appear, visibility, the scale of the zoom/visibilty pre/post when hovered*/
+    width: 35vw;
+    height:43vh;	
+    opacity: 0.4;	
+    transition-duration: 1s;
+    transform: scale(0.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ 
+}
+
+a  {
+    /*position, apperance, and size on screen*/
+    position: absolute;
+    z-index: 5;
+    text-decoration: none;
+    color: indianred;
+    font-size: 150%;
+    width: 70vw;
+    text-align: right;  
+    bottom: -1600vh;}
+
+/*.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: auto auto ;
+grid-gap: 5px;
+}
+
+.grid-container > div {
+text-align: center;
+padding: 20px 0;
+}
+
+/*<div class="grid-container"></div>
+
+div:zoom > img{
+zoom: 150%;
+}
+*/
